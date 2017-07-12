@@ -5,7 +5,7 @@ var WeatherMessage = (props) => {
 
 	return (
 		<div>
-			<h3>{"A temperatura em " + location + " é de " + temp}</h3>
+			<h3 classNamw="text-center">{"A temperatura em " + location + " é de " + temp}</h3>
 		</div>
 	);
 };
